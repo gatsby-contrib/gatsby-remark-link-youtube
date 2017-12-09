@@ -1,0 +1,44 @@
+{
+  "name": "@gatsby-contrib/gatsby-remark-link-youtube",
+  "version": "0.0.1",
+  "description": "Add a link with a thumbnail to Youtube Videos in Gatsby via Markdown",
+  "main": "n/a",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "build:watch": "babel src --watch --out-dir .",
+    "default": "npm run build:watch",
+    "lint": "eslint ./",
+    "format": "prettier-eslint --write '**/*.{js,md,json}'",
+    "publish": "npm run lint && npm publish --access=public",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "Benjamin Abel <dev.abel@laposte.net>",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "remark"
+  ],
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "unist-util-visit": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-google": "^0.11.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.3",
+    "prettier-eslint-cli": "^4.7.1"
+  },
+  "homepage": "https://github.com/gatsby-contrib/gatsby-remark-link-youtube#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsby-contrib/gatsby-remark-link-youtube.git"
+  }
+}
