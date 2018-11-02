@@ -1,6 +1,6 @@
 {
   "name": "@gatsby-contrib/gatsby-remark-link-youtube",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Add a link with a thumbnail to Youtube Videos in Gatsby via Markdown",
   "main": "n/a",
   "scripts": {
